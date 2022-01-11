@@ -2,9 +2,12 @@ package main
 
 import (
    "fmt"
-   "github.com/digitnow/rivercrossing/state"
+   "github.com/youngmemo/rivercrossing/state"
 )
 
 func main() {
-   fmt.Println(state.GetQuote());
+   // fmt.Println(state.GetQuote());
+      fmt.Println(state.ViewState());
+      state.Put();
+      fmt.Println(state.ViewState());
 }
