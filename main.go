@@ -2,7 +2,7 @@ package main
 
 import (
    "fmt"
-   "github.com/digitnow/rivercrossing/state"
+   "github.com/youngmemo/rivercrossing/state"
 )
 
 func main() {
