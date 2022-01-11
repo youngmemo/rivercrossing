@@ -1,4 +1,4 @@
-module github.com/digitnow/rivercrossing
+module github.com/youngmemo/rivercrossing
 
 go 1.17
 
